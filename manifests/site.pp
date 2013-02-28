@@ -88,9 +88,9 @@ node default {
 }
 
 # test other packages
-include notational_velocity::nvalt
+include notational_velocity
 include dropbox
-include postgres
+include postgresql
 include chrome::dev
 include mongod
 include zsh
