@@ -97,6 +97,5 @@ include zsh
 include sublime_text_2
 include spotify
 include onepassword
-include macvim
 include iterm2::stable
 include divvy
