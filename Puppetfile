@@ -36,3 +36,16 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "notational_velocity"
+github "dropbox"
+github "one_pass"
+github "chrome"
+github "mongodb"
+github "sublime_text_2"
+github "spotify"
+github "macvim"
+github "iterm2"
+github "heroku"
+github "postgresql"
+github "rbenv"
