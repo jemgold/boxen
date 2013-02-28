@@ -1,7 +1,7 @@
 class people::jongd {
 
   # test other packages
-  include notational_velocity::nvalt
+  # include notational_velocity::nvalt
   include dropbox
   include postgres
   include chrome::dev
