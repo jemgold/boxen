@@ -49,7 +49,7 @@ create an entirely separate repo and simply pull the code in, as shown above.
 ```
 sudo mkdir -p /opt/boxen
 sudo chown $USER:admin /opt/boxen
-git clone https://github.com/yourorg/yourreponame.git /opt/boxen/repo
+git clone https://github.com/jongd/boxen.git /opt/boxen/repo
 cd /opt/boxen/repo
 script/boxen
 
