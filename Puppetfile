@@ -39,7 +39,7 @@ github "sudo",     "1.0.0"
 
 github "notational_velocity",  "1.0.0"
 github "dropbox",  "1.0.0"
-github "one_pass",  "1.0.0"
+github "onepassward",  "1.0.0"
 github "chrome",  "1.0.0"
 github "mongodb",  "1.0.0"
 github "sublime_text_2",  "1.0.0"
