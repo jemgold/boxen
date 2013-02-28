@@ -88,14 +88,9 @@ node default {
 }
 
 # test other packages
-include notational_velocity
-include dropbox
 include postgresql
 include chrome::dev
 include mongodb
 include zsh
 include sublime_text_2
-include spotify
-include onepassword
 include iterm2::stable
-include divvy

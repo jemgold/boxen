@@ -4,9 +4,24 @@ GITHUBTARBALL
     boxen (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-divvy
+  specs:
+    divvy (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -19,6 +34,11 @@ GITHUBTARBALL
     git (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-heroku
+  specs:
+    heroku (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.0.0)
@@ -27,6 +47,21 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mongodb
+  specs:
+    mongodb (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -39,9 +74,34 @@ GITHUBTARBALL
     nodejs (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-notational_velocity
+  specs:
+    notational_velocity (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nvm
   specs:
     nvm (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-onepassword
+  specs:
+    onepassword (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-rbenv
+  specs:
+    rbenv (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
@@ -49,9 +109,29 @@ GITHUBTARBALL
     ruby (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sysctl
+  specs:
+    sysctl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
 
 GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
@@ -65,16 +145,32 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 1.0.2)
+  chrome (= 1.0.0)
+  divvy (= 1.0.0)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
+  heroku (= 1.0.0)
   homebrew (= 1.0.0)
   hub (= 1.0.0)
   inifile (= 0.9.0)
+  iterm2 (= 1.0.0)
+  macvim (= 1.0.0)
+  mongodb (= 1.0.0)
   nginx (= 1.0.0)
   nodejs (= 1.0.0)
+  notational_velocity (= 1.0.0)
   nvm (= 1.0.0)
+  onepassword (= 1.0.0)
+  osx (= 1.0.0)
+  postgresql (= 1.0.0)
+  rbenv (= 1.0.0)
   ruby (= 1.0.0)
+  spotify (= 1.0.0)
   stdlib (= 3.0.0)
+  sublime_text_2 (= 1.0.0)
   sudo (= 1.0.0)
+  sysctl (= 1.0.0)
+  zsh (= 1.0.0)
 
