@@ -92,7 +92,7 @@ include notational_velocity
 include dropbox
 include postgresql
 include chrome::dev
-include mongod
+include mongodb
 include zsh
 include sublime_text_2
 include spotify
