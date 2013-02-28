@@ -1,4 +1,4 @@
-class people:jongd {
+class people::jongd {
 
   # test other packages
   include notational_velocity::nvalt
