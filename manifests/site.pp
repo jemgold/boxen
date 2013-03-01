@@ -94,3 +94,4 @@ include mongodb
 include zsh
 include sublime_text_2
 include iterm2::stable
+include imagemagick

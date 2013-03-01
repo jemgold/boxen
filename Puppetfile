@@ -37,6 +37,8 @@ github "sudo",     "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "imagemagick", "1.1.0"
+github "xquartz", "1.0.0"
 github "notational_velocity",  "1.0.0"
 github "dropbox",  "1.0.0"
 github "onepassword",  "1.0.0"
