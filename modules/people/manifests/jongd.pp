@@ -4,7 +4,7 @@ class people::jongd {
 
   repository { $dotfiles:
     ensure => present,
-    source => "jongd/dotfiles-1"
+    source => "jongd/dotfiles"
   }
 
   $localrc = "/Users/${::luser}/.localrc"
