@@ -76,17 +76,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (1.0.0)
+    nodejs (2.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-notational_velocity
   specs:
     notational_velocity (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nvm
-  specs:
-    nvm (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-onepassword
@@ -175,9 +170,8 @@ DEPENDENCIES
   macvim (= 1.0.0)
   mongodb (= 1.0.0)
   nginx (= 1.0.0)
-  nodejs (= 1.0.0)
+  nodejs (= 2.0.0)
   notational_velocity (= 1.0.0)
-  nvm (= 1.0.0)
   onepassword (= 1.0.0)
   osx (= 1.0.0)
   postgresql (= 1.0.0)
