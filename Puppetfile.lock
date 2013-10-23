@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (1.0.2)
+    boxen (3.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -94,11 +94,6 @@ GITHUBTARBALL
     osx (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-postgresql
-  specs:
-    postgresql (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-rbenv
   specs:
     rbenv (1.0.0)
@@ -154,7 +149,7 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
-  boxen (= 1.0.2)
+  boxen (= 3.0.2)
   chrome (= 1.0.0)
   divvy (= 1.0.0)
   dnsmasq (= 1.0.0)
@@ -174,7 +169,6 @@ DEPENDENCIES
   notational_velocity (= 1.0.0)
   onepassword (= 1.0.0)
   osx (= 1.0.0)
-  postgresql (= 1.0.0)
   rbenv (= 1.0.0)
   redis (= 1.0.0)
   ruby (= 1.0.0)

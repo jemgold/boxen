@@ -1,6 +1,13 @@
 class people::jongd {
 
-  $dotfiles = "/Users/${::luser}/.dotfiles"
+  include notational_velocity
+  include dropbox
+  include spotify
+  include onepassword
+  include divvy
+
+
+  $dotfiles = "/Users/${::boxenuser}/.dotfiles"
 
   repository { $dotfiles:
     ensure => present,
@@ -13,9 +20,3 @@ class people::jongd {
     mode => 0600
   }
 }
-
-include notational_velocity
-include dropbox
-include spotify
-include onepassword
-include divvy
