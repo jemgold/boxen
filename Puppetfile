@@ -16,7 +16,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "1.0.2"
+github "boxen", "2.3.5"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -50,7 +50,6 @@ github "macvim",  "1.0.0"
 github "iterm2",  "1.0.0"
 github "heroku",  "1.0.0"
 github "sysctl", "1.0.0"
-github "postgresql",  "1.0.2", :repo => "boxen/puppet-postgresql"
 github "rbenv",  "1.0.0"
 github "zsh",  "1.0.0"
 github "osx", "1.0.0"

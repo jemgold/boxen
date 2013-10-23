@@ -86,7 +86,6 @@ node default {
 }
 
 # test other packages
-include postgresql
 include chrome::dev
 include mongodb
 include zsh
