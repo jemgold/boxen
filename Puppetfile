@@ -9,6 +9,22 @@ def github(name, version, options = nil)
   options[:repo] ||= "boxen/puppet-#{name}"
   mod name, version, :github_tarball => options[:repo]
 end
+# Shortcut for a module from GitHub's boxen organization
+def github(name, *args)
+  options ||= if args.last.is_a? Hash
+    args.last
+  else
+    {}
+  end
+
+  if path = options.delete(:path)
+    mod name, :path => path
+  else
+    version = args.first
+    options[:repo] ||= "boxen/puppet-#{name}"
+    mod name, version, :github_tarball => options[:repo]
+  end
+end
 
 # Core modules for a basic development environment. You can replace
 # some/most of those if you want, but it's not recommended.
@@ -16,7 +32,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "2.3.5"
+github "boxen", "3.0.2"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
