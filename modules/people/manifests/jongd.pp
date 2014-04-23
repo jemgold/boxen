@@ -14,9 +14,4 @@ class people::jongd {
     source => "jongd/dotfiles"
   }
 
-  $localrc = "/Users/${::luser}/.localrc"
-  file { $localrc:
-    ensure => present,
-    mode => 0600
-  }
 }
